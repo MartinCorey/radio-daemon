@@ -46,7 +46,8 @@ def get_file_metadata(file_path):
         return None
     d = dict(f.tags)
 
-    tags = {k : d[k][0] for k in d} #make it not return a (key, singleton list) pair?
+    logging.debug(str(d))
+    tags = {k : d[k][0] for k in d if isinstance(d[k], list)} #make it not return a (key, singleton list) pair?
     length = f.info.length
 
     #add filename to tags:
