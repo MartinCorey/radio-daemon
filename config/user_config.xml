@@ -1,23 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <config>
-    <timeslot>
-
-        <genre>
+    <block>
+        <name>Test Block</name>
+	<image>/home/elaine/2223.png</image>
+        <desc>
             acid/techno
-        </genre>
-
+        </desc>
         <time>
             <start>03:10</start>
             <end>03:25</end>
         </time>
+        <segment>
+            <name>Test Segment</name>
+	    <image>/home/elaine/2224.png</image>
 
-        <albums>
-            /home/elaine/Downloads/acid_planet
-        </albums>
 
-        <blacklist>
-            <!-- <album>(ACID PLANET 11) Musik Aus Strom - Acid Planet 11 (1995) [2016]</album -->
-        </blacklist>
+       	    <files>
+                /home/elaine/Downloads/acid_planet
+            </files>
 
-    </timeslot>
+            <blacklist>
+                <!-- <album>(ACID PLANET 11) Musik Aus Strom - Acid Planet 11 (1995) [2016]</album -->
+            </blacklist>
+        </segment>
+    </block>
+
 </config>
