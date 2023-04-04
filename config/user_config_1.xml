@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<config>
+    <block>
+        <name>Test Block</name>
+	<image>/home/elaine/2221.png</image>
+        <desc>
+            acid/techno
+        </desc>
+        <time>
+            <start>03:10</start>
+            <end>03:25</end>
+        </time>
+        <segment>
+            <name>Test Segment</name>
+	    <image>/home/elaine/2222.png</image>
+
+
+        <files>
+            /home/elaine/Downloads/acid_planet
+        </files>
+
+        <blacklist>
+            <!-- <album>(ACID PLANET 11) Musik Aus Strom - Acid Planet 11 (1995) [2016]</album -->
+        </blacklist>
+
+    </segment>
+    </block>
+
+</config>

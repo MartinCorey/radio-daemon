@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<settings>
+	<channel>
+		<name>Channel One</name>
+		<config>config/user_config_1.xml</config>
+		<id>1</id>
+		<colorscheme>
+			<foreground>#FF00FF</foreground>
+			<background>#000000</background>
+		</colorscheme>
+		<name>Radio1</name>
+	</channel>
+	<channel>
+		<name>Channel Two</name>
+		<config>config/user_config.xml</config>
+		<id>2</id>
+		<colorscheme>
+			<foreground>#0000FF</foreground>
+			<background>#FFFFFF</background>
+		</colorscheme>
+		<name>Radio2</name>
+	</channel>
+</settings>
